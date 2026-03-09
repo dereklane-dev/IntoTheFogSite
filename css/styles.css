@@ -193,6 +193,12 @@ figcaption p {
     margin-bottom: 0;
 }
 
+.photo-caption {
+    text-align: center;
+    margin-top: -2rem;
+    font-size: 0.85rem;
+}
+
 /* Cards */
 
 .card {
