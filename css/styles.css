@@ -1,0 +1,381 @@
+/* CSS reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, header, nav, main, footer, h1, div, img, ul, ol, figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p,
+ul, ol, figure {
+    margin: 0;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+html {
+    font-size: 16px;
+    height: 100%;
+}
+
+/* Body */
+
+body, html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #1F2A44;
+    color: #e6e6e6;
+    width: 100%;
+    height: 100%;
+    min-width: 360px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+h1, h2, h3 {
+    font-family: Jost, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+h1 {
+    margin-top: 1rem;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 3rem;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    margin: 1rem auto;
+    max-width: 650px;
+}
+
+figure h3 {
+    margin-top: 1rem;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.caption-h3 {
+    font-family: Jost, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-align: center;
+}
+
+/* Header, Footer */
+
+header, footer {
+    background-color: #1A1A1D;
+    padding: 1rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Buttons */
+
+.button {
+    display: block;
+    width: 8rem;
+    margin: 2rem auto 1rem;
+    background-color: #a81403;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.267);
+    padding: 0.20rem 0;
+    font-size: 1.05rem;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+/* Links */
+
+a {
+    color: #e6e6e6;
+    opacity: 90%;
+}
+
+a:active {
+    opacity: 100%;
+}
+
+/* Images */
+
+.itf-logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.small-social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.small-social-links img {
+    max-width: 30px;
+}
+
+#yt_logo {
+    max-width: 50px;
+}
+
+.hero-image { 
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 3rem auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.267);
+}
+
+figcaption {
+    margin-top: 0.5rem;
+}
+
+figcaption p {
+    margin: 0;
+}
+
+.discography {
+    max-width: 1000px;
+    margin: 2rem auto 0;
+    justify-content: space-around;
+    padding: 0 2rem;
+}
+
+.discography img {
+    width: 100%;
+    display: block;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.267);
+    margin: 0 auto;
+}
+
+.discography figure {
+    margin: 2rem 1rem;
+}
+
+.discography h3 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.photo-caption {
+    text-align: center;
+    margin-top: -2rem;
+    font-size: 0.85rem;
+}
+
+/* Cards */
+
+.card {
+    display: block;
+    background-color: #1A1A1D;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    max-width: 800px;
+    margin: 4rem auto;
+}
+
+.card h2 {
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.card p+p {
+    margin-top: 2rem;
+}
+
+/* Members Section */
+
+.members figure {
+    margin: 2rem 0;
+}
+
+.members figure img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.267);
+}
+
+.members figure p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Past Members Section */
+
+.past-members {
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.past-members p {
+    text-align: center;
+}
+
+.past-members img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.267);
+}
+
+.past-members figure {
+    margin: 2rem auto;
+}
+
+/* Stream our Music Section */
+
+.stream-links {
+    display: flex;
+    max-width: 800px;
+    margin: 1rem auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.stream-links img {
+    width: 100%;
+    max-width: 80px;
+}
+
+/* About Page */
+
+.about-info a {
+    text-align: center;
+}
+
+.decoration {
+    border-bottom: 2px solid grey;
+    margin-top: 4rem;
+}
+
+@media screen and (min-width:600px) {
+
+a {
+    color: #e6e6e6;
+    text-decoration: none;
+    opacity: 80%;
+    transition: 0.75s;
+}
+
+a:hover {
+    opacity: 100%;
+    text-decoration: underline;
+}
+
+.button {
+    width: 10rem;
+    color: #e6e6e6;
+    background-color: #6B0B00;
+    transition: 0.75s;
+}
+
+.button:hover {
+    background-color: #a81403;
+    color: #ffffff;
+    box-shadow: none;
+}
+
+.discography {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    gap: 4rem;
+}
+
+.discography img {
+    max-width: 400px;
+}
+
+.discography figure {
+    margin: 0;
+}
+
+.carolina-moon {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.searchin-for-sanctuary {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.runnin-blind {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.wishin-it-would-rain {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.past-members {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    gap: 2rem;
+    justify-content:space-around;
+}
+
+.past-members img {
+    max-width: 400px;
+}
+
+.past-members figure {
+    margin: 0;
+}
+
+.will-maxwell {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.jack-snyder {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+}
